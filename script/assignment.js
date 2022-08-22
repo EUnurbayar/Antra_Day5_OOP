@@ -18,9 +18,9 @@ console.log(nums.myMap(myFunction()));// result: [4, 8, 12, 16]
 
 
 // myraduce 
-Array.prototype.myReduce=function(myFunc){
+Array.prototype.myReduce = function(myFunc){
     let total= 0;
-    for (let i = 0;i < this.length; i++){
+    for (let i = 0; i < this.length; i++){
         total += this[i]
     }
     return total;
@@ -33,5 +33,6 @@ function myFunc(i){
 let nums2 = [1, 2, 3, 4, 5];
 console.log(nums2.myReduce(myFunc())); // result: 15
 console.log(nums2.myMap(myFunction()));// result: [2,4,6,8,10]
+console.log(nums.myReduce(myFunc));//20
 
 
