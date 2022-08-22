@@ -1,20 +1,19 @@
 // loops
-​
+
 // for of
 // const arr2 = [1,8,7,6,5]
 // for (let ele of arr2) {
 //     console.log(ele);
 //     // ele === array[i]
 // }
-​
-​
+
 // for in
 // obj1 = {name:"JR"}
 // for (let key in obj1) {
 //     console.log(obj1[key])
 //     // console.log(key + ": " + obj[key]);
 // }
-​
+
 // argument
 // function foo() {
 //     for (let index = 0 ; index < arguments.length; index++) {
@@ -22,9 +21,9 @@
 //     }
 // }
 // foo(1, 2, 3, 4, 5, 6);
-​
+
 // rest parameter vs spread operator ...
-​
+
 //rest parameter
 // function foo2(a,b,c, ...arr) {
 //     console.log(...arr)
